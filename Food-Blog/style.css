@@ -1,0 +1,132 @@
+/* === Typograghy === */
+body {
+    font-family: 'helvetica' , 'Arial' , sans-serif;
+    font-size: 14pt;
+    line-height: 18pt;
+    color: #000000;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 72pt;
+}
+
+footer {
+    color: white;
+}
+/* === Backgrounds === */
+
+header {
+    background-color: black;
+}
+
+main {
+    background-color: #cdcdcd;
+}
+
+body {
+    background-color: #cdcdcd;
+}
+
+footer {
+    background-color: black;
+}
+
+#splash {
+    background-size: cover;
+    background-image: url("heading.jpg")
+}
+/* === Box Model === */
+#splash {
+    height: 400px;
+}
+
+nav {
+    padding: 40px;
+}
+
+nav a {
+    margin-right: 10px;
+
+}
+
+footer {
+    padding: 50px;
+}
+
+#foodarticles {
+    padding: 50px;
+}
+
+article {
+    margin-bottom: 60px;
+}
+
+/* === Layout === */
+
+.floatleft {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    margin: auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+#splash {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+aside {
+    margin-left: 35px:
+}
+
+body {
+    padding-top: 100px;
+}
+
+header {
+     background-color: black;
+    padding: 15px;
+    color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+#book{
+    background-color: red;
+    color: black;
+    padding: 15px;
+    position: fixed;
+    bottom: 0px;
+    right: 30px;
+    width: 40%;
+}
+
+#splash{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+}

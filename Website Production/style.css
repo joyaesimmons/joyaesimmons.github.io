@@ -1,0 +1,286 @@
+/* === Typography ===*/
+
+header {
+    text-align: center;
+}
+
+#nav a {
+    font-family: 'Corben';
+    font-size: 18pt;
+    line-height: 18pt;
+    color: #f29863;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Corben', bold;
+    font-size: 72pt;
+    line-height: 18pt;
+    color: #000000;
+}
+
+main h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size:14pt;
+    line-height: 18pt;
+    font-weight: 600;
+    color: #413a37;
+    text-align: center;
+}
+
+main p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11pt;
+    line-height: 14pt;
+    color: #ffffff;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#post2 h2 {
+    padding-left: 25px;
+}
+
+#post2 p {
+    padding-left: 25px;
+}
+
+#Contact p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    line-height: 3pt;
+    color: #ffffff;
+    text-align: left;
+}
+
+#Contact h3 {
+    font-family: 'Corben';
+    font-size: 12pt;
+    line-height: 5pt;
+    color: #07f2f2;
+    text-align: left;
+}
+
+#Hours p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    line-height: 3pt;
+    color: #ffffff;
+    text-align: left;
+}
+
+#Hours h3 {
+    font-family: 'Corben';
+    font-size: 12pt;
+    line-height: 5pt;
+    color: #07f2f2;
+    text-align: left;
+}
+/* === Backgrounds === */
+
+body {
+    background: #413a37;
+}
+
+#post1, #post2, #post3 {
+    background: #9fa66a;
+}
+
+/* === Box model === */
+
+
+ul {
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+}
+
+#nav {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#Menu1, #Menu2{
+    height: auto;
+    width: auto;
+   margin: 20px;
+    
+}
+
+#Menus{
+    grid-column: 1/4;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+#EventsPost {
+    outline-style: none;
+}
+
+#post1 {
+    height: auto;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+}
+
+#post2 {
+    height: 400px;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 40px;
+    margin: 20px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+#post3 {
+    height: 400px;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.SplashImg {
+    height: 400px;
+    padding-top: 175px;
+    margin-bottom: 50px;
+}
+
+footer {
+    padding-top: 50px;
+}
+
+header {
+    padding-top: 40px;
+}
+
+.portraitpic {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    padding-left: 25px;
+}
+
+.postimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    padding-left: auto;
+}
+
+/* === Layout === */
+
+
+#nav a:hover {
+    text-decoration: underline;
+    text-decoration-color: #07f2f2;
+}
+
+main a:hover {
+    border: 1px solid #07f2f2;
+}
+
+#SocialMedia a:hover {
+    border-bottom: 1px solid #07f2f2;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#nav a {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+#container {
+    width: 1000px;
+    margin: auto;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 1000px;
+}
+
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 125px;
+}
+
+#splash {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Hours {
+    padding-left: 150px;
+}
+
+#Contact {
+    padding-left: 20px;
+}
+
+#SocialMedia {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* = Grid =*/
+header,
+footer {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+main2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#splash {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#logo {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#SocialMedia {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
